@@ -1,0 +1,32 @@
+Begin Object Class=/Script/Engine.PhysicsAsset Name="escape_pod_PhysicsAsset"
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_1"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.PhysicsConstraintTemplate Name="PhysicsConstraintTemplate_0"
+   End Object
+   Begin Object Name="SkeletalBodySetup_1"
+      AggGeom=(SphylElems=((Center=(X=-0.193558,Y=5.790276,Z=0.256275),Rotation=(Pitch=-1.780056,Yaw=-90.000008,Roll=33.588722),Radius=9.587582,Length=9.792077)))
+      BoneName="bone_shield_root"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SkeletalBodySetup_0"
+      AggGeom=(SphylElems=((Center=(X=0.956026,Y=-11.240322,Z=-12.283735),Rotation=(Pitch=25.590736,Yaw=-90.000000,Roll=-0.196987),Radius=9.204496,Length=18.498896)))
+      BoneName="bones"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="PhysicsConstraintTemplate_0"
+      DefaultInstance=(JointName="bone_shield_root",ConstraintBone1="bone_shield_root",ConstraintBone2="bones",Pos2=(X=1.301948,Y=-15.174507,Z=-20.292473),PriAxis2=(X=0.000000,Y=-0.925202,Z=0.379474),SecAxis2=(X=-0.000000,Y=0.379474,Z=0.925202),ProfileInstance=(ConeLimit=(Swing1Motion=ACM_Limited,Swing2Motion=ACM_Limited),TwistLimit=(TwistMotion=ACM_Limited)))
+   End Object
+   PreviewSkeletalMesh=/Game/ThirdPersonBP/FIXEDPod/escape_pod.escape_pod
+   BoundsBodies(0)=0
+   BoundsBodies(1)=1
+   SkeletalBodySetups(0)=SkeletalBodySetup'"SkeletalBodySetup_0"'
+   SkeletalBodySetups(1)=SkeletalBodySetup'"SkeletalBodySetup_1"'
+   ConstraintSetup(0)=PhysicsConstraintTemplate'"PhysicsConstraintTemplate_0"'
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object
