@@ -1,1 +1,1 @@
-Should only need the FIXEDPod folder, if that doesn't work then just download the other stuff.
+Only use FIXED folder, not original which is corrupted thanks to Zach.
